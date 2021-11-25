@@ -21,4 +21,13 @@
         android:hint="무엇을 적을까요?"
         android:textAllCaps="false"
         />
+
+    <Button
+        android:id="@+id/Go_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textAllCaps="false"
+
+        />
 </LinearLayout>
