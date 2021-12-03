@@ -35,6 +35,9 @@ class Login : AppCompatActivity() {
                 // 로그인 실패 다이얼로그 보여주기
                 dialog("fail")
             }
+
+            var intent = Intent(this,SubActivity::class.java)
+            startActivity(intent)
         }
 
 

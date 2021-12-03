@@ -13,10 +13,7 @@ class MainActivity : AppCompatActivity() {
 
 
 
-        Gosub.setOnClickListener{
-            var intent = Intent(this, SubActivity::class.java )
-            startActivity(intent)
-        }
+
 
         Go_login.setOnClickListener {
             var intent = Intent(this, Login::class.java)
