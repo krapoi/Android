@@ -14,7 +14,6 @@ class MainActivity : AppCompatActivity() {
 
 
 
-
         Go_login.setOnClickListener {
             var intent = Intent(this, Login::class.java)
             startActivity(intent)
